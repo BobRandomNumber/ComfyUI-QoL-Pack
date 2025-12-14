@@ -1,6 +1,6 @@
 # ComfyUI Quality of Life Pack
 
-Some optimized enhancements originally from [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts) by `pysssss`. This pack aims to incorporate the updated enhancments without adding unnecessary features.
+Some optimized enhancements originally from [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts) by `pythongosssss`. This pack aims to incorporate updated enhancments without adding unnecessary features.
 
 ---
 
@@ -53,21 +53,21 @@ https://github.com/user-attachments/assets/7929050c-b845-411d-a5a9-f029957cfe99
 
 ## ⚠️ Important: Conflicts
 
-This package contains modified versions of scripts found in `ComfyUI-Custom-Scripts` by `pysssss`.
+This package contains modified versions of scripts found in `ComfyUI-Custom-Scripts` by `pythongosssss`.
 
-**You should not have this pack and the original `ComfyUI-Custom-Scripts` by `pysssss` installed at the same time**, as they may conflict and cause issues with your menus.
+**You should not have this pack and the original `ComfyUI-Custom-Scripts` installed at the same time**, as they may conflict and cause issues with your menus.
 
 Please choose one pack or the other. This `QoL-Pack` was created to provide a stable, minimal alternative.
 
 ## Credits and Attribution
 
-This package would not be possible without the foundational work done by the original author. The features included here are heavily based on, and are a slimmed-down, refactored version of, scripts from the following repository:
+This package is based on work done by the original author. The features included here are based on a slimmed-down, refactored version of, scripts from the following repository:
 
 -   **Original Project:** [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
--   **Original Author:** `pysssss` (pythongosssss)
+-   **Original Author:** `pythongosssss`
 
 Specifically, this pack modifies and builds upon:
 -   `betterCombos.js`
 -   `workflowImage.js`
 
-Full credit goes to `pysssss` for creating these excellent utilities for the ComfyUI community.
+Full credit goes to `pythongosssss` for creating these excellent utilities for the ComfyUI community.
