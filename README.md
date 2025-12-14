@@ -1,6 +1,6 @@
 # ComfyUI Quality of Life Pack
 
-Some bug-fixed and optimized user interface enhancements originally from [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts) by `pysssss`. This pack aims to incorporate updated enhancments without adding unnecessary features.
+Some bug-fixed and optimized enhancements originally from [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts) by `pysssss`. This pack aims to incorporate updated enhancments without adding unnecessary features.
 
 ---
 
@@ -54,7 +54,7 @@ This package contains modified versions of scripts found in `ComfyUI-Custom-Scri
 
 **You should not have this pack and the original `ComfyUI-Custom-Scripts` by `pysssss` installed at the same time**, as they may conflict and cause issues with your menus.
 
-Please choose one pack or the other. This `QoL-Pack` was created to provide a stable, minimal, and bug-fixed alternative.
+Please choose one pack or the other. This `QoL-Pack` was created to provide a stable, minimal alternative.
 
 ## Credits and Attribution
 
