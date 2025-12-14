@@ -26,10 +26,12 @@ Adds a simple, one-click option to the canvas context menu to save your entire w
 
 ## Screenshots
 
-*(Note to BobRandomNumber: Please replace the placeholder URLs below with links to actual screenshots of the features in action. You can upload images directly to your GitHub repository and link to them.)*
-
 **Nested Menus in Action:**
-![A clear, organized dropdown menu showing models grouped into collapsible folders.](https://raw.githubusercontent.com/BobRandomNumber/ComfyUI-QoL-Pack/main/screenshots/nested_menus.png)
+
+
+https://github.com/user-attachments/assets/7929050c-b845-411d-a5a9-f029957cfe99
+
+
 
 **Save Workflow Option:**
 ![The right-click context menu on the canvas showing the 'Save Workflow as PNG' option.](https://raw.githubusercontent.com/BobRandomNumber/ComfyUI-QoL-Pack/main/screenshots/save_workflow_option.png)
