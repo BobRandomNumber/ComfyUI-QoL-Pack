@@ -1,6 +1,6 @@
 # ComfyUI Quality of Life Pack
 
-A focused collection of bug-fixed and optimized user interface enhancements for ComfyUI. This pack aims to improve usability and streamline your workflow without adding unnecessary features.
+Some bug-fixed and optimized user interface enhancements originally from [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts) by `pysssss`. This pack aims to incorporate updated enhancments without adding unnecessary features.
 
 ---
 
@@ -37,20 +37,22 @@ Adds a simple, one-click option to the canvas context menu to save your entire w
 ## Installation
 
 1.  Navigate to your ComfyUI `custom_nodes` directory.
+
     ```bash
     cd ComfyUI/custom_nodes/
     ```
-2.  Clone this repository into the `custom_nodes` folder.
+3.  Clone this repository into the `custom_nodes` folder.
+
     ```bash
     git clone https://github.com/BobRandomNumber/ComfyUI-QoL-Pack.git
     ```
-3.  Restart ComfyUI.
+5.  Restart ComfyUI.
 
 ## ⚠️ Important: Conflicts
 
 This package contains modified versions of scripts found in `ComfyUI-Custom-Scripts` by `pysssss`.
 
-**You should not have this pack and the original `ComfyUI-Custom-Scripts` by `pysssss` installed at the same time**, as they will conflict and cause issues with your menus.
+**You should not have this pack and the original `ComfyUI-Custom-Scripts` by `pysssss` installed at the same time**, as they may conflict and cause issues with your menus.
 
 Please choose one pack or the other. This `QoL-Pack` was created to provide a stable, minimal, and bug-fixed alternative.
 
