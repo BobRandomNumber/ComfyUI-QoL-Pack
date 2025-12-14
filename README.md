@@ -34,7 +34,8 @@ https://github.com/user-attachments/assets/7929050c-b845-411d-a5a9-f029957cfe99
 
 
 **Save Workflow Option:**
-![The right-click context menu on the canvas showing the 'Save Workflow as PNG' option.](https://raw.githubusercontent.com/BobRandomNumber/ComfyUI-QoL-Pack/main/screenshots/save_workflow_option.png)
+
+<img width="295" height="250" alt="menu" src="https://github.com/user-attachments/assets/6b9dbba7-0328-46e4-9382-76708b4c08e7" />
 
 ## Installation
 
