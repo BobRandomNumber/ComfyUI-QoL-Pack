@@ -48,7 +48,9 @@ Adds a simple, one-click option to the canvas context menu to save your entire w
 
 ## ⚠️ Important: Conflicts
 
-This package contains modified versions of scripts found in other popular utility packs. **You should not have this pack and the original `ComfyUI-Custom-Scripts` by `pysssss` installed at the same time**, as they will conflict and cause issues with your menus.
+This package contains modified versions of scripts found in `ComfyUI-Custom-Scripts` by `pysssss`.
+
+**You should not have this pack and the original `ComfyUI-Custom-Scripts` by `pysssss` installed at the same time**, as they will conflict and cause issues with your menus.
 
 Please choose one pack or the other. This `QoL-Pack` was created to provide a stable, minimal, and bug-fixed alternative.
 
@@ -63,5 +65,4 @@ Specifically, this pack modifies and builds upon:
 -   `betterCombos.js`
 -   `workflowImage.js`
 
-Full credit goes to `pysssss` for creating these excellent utilities for the ComfyUI community.IN THE
-SOFTWARE.
+Full credit goes to `pysssss` for creating these excellent utilities for the ComfyUI community.
