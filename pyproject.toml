@@ -1,7 +1,7 @@
 [project]
 name = "qol-pack"
 description = "Collapsible Nested Menus and Save Workflow as PNG"
-version = "0.1.0"
+version = "0.2.0"
 license = {file = "LICENSE"} 
 
 [project.urls]
@@ -10,3 +10,4 @@ Repository = "https://github.com/BobRandomNumber/ComfyUI-QoL-Pack"
 [tool.comfy]
 PublisherId = "bobrandomnumber"
 DisplayName = "QoL-Pack"
+
