@@ -74,7 +74,7 @@ app.registerExtension({
 			const insertFolderStructure = (parentElement, map, level = 0) => {
 				const sortedFolderEntries = [...map.entries()]
 					.filter(([key]) => key !== itemsSymbol)
-					.sort((a, b) => a[0].localeCompare(b[0]);
+					.sort((a, b) => a[0].localeCompare(b[0]));
 
 				for (const [folderName, content] of sortedFolderEntries) {
 					const folderEl = $el("div.litemenu-entry.comfy-utils-combo-folder", {
@@ -136,9 +136,9 @@ app.registerExtension({
 								const maxHeight = window.innerHeight - position.top - 20;
 								added.style.maxHeight = `${maxHeight}px`;
 								createTree(added);
-						});
+							});
 						}
-					return;
+						return;
 					}
 				}
 			}
