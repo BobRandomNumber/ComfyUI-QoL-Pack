@@ -1,5 +1,5 @@
 import { app } from "../../../scripts/app.js";
-import { $el } from "../../../scripts/ui.js";
+const { $el } = window.comfyAPI.ui;
 
 app.registerExtension({
 	name: "Comfy.QoL.BetterCombos",
@@ -74,7 +74,7 @@ app.registerExtension({
 			const insertFolderStructure = (parentElement, map, level = 0) => {
 				const sortedFolderEntries = [...map.entries()]
 					.filter(([key]) => key !== itemsSymbol)
-					.sort((a, b) => a[0].localeCompare(b[0]));
+					.sort((a, b) => a[0].localeCompare(b[0]);
 
 				for (const [folderName, content] of sortedFolderEntries) {
 					const folderEl = $el("div.litemenu-entry.comfy-utils-combo-folder", {
@@ -126,7 +126,7 @@ app.registerExtension({
 
 						const hasPaths = Array.from(entries).some(
 							(el) => (el.textContent || el.getAttribute("data-value") || "").includes("/") ||
-									   (el.textContent || el.getAttribute("data-value") || "").includes("\\")
+								   (el.textContent || el.getAttribute("data-value") || "").includes("\\")
 						);
 
 						if (hasPaths) {
@@ -146,3 +146,4 @@ app.registerExtension({
 		mutationObserver.observe(document.body, { childList: true, subtree: false });
 	},
 });
+
