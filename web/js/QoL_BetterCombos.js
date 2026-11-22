@@ -1,5 +1,5 @@
 import { app } from "../../../scripts/app.js";
-import { $el } from "../../../scripts/ui.js";
+const { $el } = window.comfyAPI.ui;
 
 app.registerExtension({
 	name: "Comfy.QoL.BetterCombos",
@@ -126,7 +126,7 @@ app.registerExtension({
 
 						const hasPaths = Array.from(entries).some(
 							(el) => (el.textContent || el.getAttribute("data-value") || "").includes("/") ||
-									   (el.textContent || el.getAttribute("data-value") || "").includes("\\")
+								   (el.textContent || el.getAttribute("data-value") || "").includes("\\")
 						);
 
 						if (hasPaths) {
@@ -136,9 +136,9 @@ app.registerExtension({
 								const maxHeight = window.innerHeight - position.top - 20;
 								added.style.maxHeight = `${maxHeight}px`;
 								createTree(added);
-						});
+							});
 						}
-					return;
+						return;
 					}
 				}
 			}
@@ -146,3 +146,4 @@ app.registerExtension({
 		mutationObserver.observe(document.body, { childList: true, subtree: false });
 	},
 });
+
